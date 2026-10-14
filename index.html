@@ -12,4 +12,22 @@
 </div></div></section>
 <section id="nosotros" class="muted"><div class="wrap"><h2>MAS S.A.S. — Energía y Telecomunicaciones</h2><div class="grid"><div><p>Integramos tecnologías de energía y conectividad para impulsar la operación de nuestros clientes.</p><p>Atendemos solicitudes desde Turbaco, Bolívar, y evaluamos proyectos en otras regiones de Colombia.</p><a class="btn" href="#contacto">Hablemos de tu proyecto</a></div><div><img class="brand" src="assets/logo-mas.jpg" alt="Logo oficial MAS S.A.S. Energía y Telecomunicaciones"></div></div></div></section>
 <section id="proyectos"><div class="wrap"><h2>Proyectos y experiencia</h2><p>Estamos preparando una galería con fotografías reales de instalaciones y trabajos realizados. No mostramos imágenes ficticias como si fueran proyectos ejecutados.</p><div class="grid"><div class="card"><h3>Energía</h3><p>Espacio para fotografías de sistemas solares.</p></div><div class="card"><h3>Telecomunicaciones</h3><p>Espacio para fotografías de radioenlaces, antenas y redes.</p></div><div class="card"><h3>Infraestructura</h3><p>Espacio para documentar proyectos y equipos instalados.</p></div></div></div></section>
-<section class="band" id="contacto"><div class="wrap"><h2>Conversemos sobre tu necesidad</h2><p>Cuéntanos qué necesitas conectar, instalar o mantener. Te ayudamos a evaluar una solución.</p><a class="btn" href="https://wa.me/573233401670">WhatsApp: 323 340 1670</a><p>Turbaco, Bolívar · Colombia</p></div></section></main><footer>© 2026 MAS S.A.S. — Energía y Telecomunicaciones</footer><a class="wa" href="https://wa.me/573233401670" aria-label="Contactar por WhatsApp">WhatsApp</a></body></html>
+<section class="band" id="contacto"><div class="wrap"><h2>Conversemos sobre tu necesidad</h2><p>Cuéntanos qué necesitas conectar, instalar o mantener. Te ayudamos a evaluar una solución.</p><a class="btn" href="https://wa.me/573233401670">WhatsApp: 323 340 1670</a><p>Turbaco, Bolívar · Colombia</p></div></section></main><footer>© 2026 MAS S.A.S. — Energía y Telecomunicaciones</footer><a class="wa" href="https://wa.me/573233401670" aria-label="Contactar por WhatsApp">WhatsApp</a>
+<script>
+fetch('/contenido/inicio.json')
+  .then(respuesta => respuesta.json())
+  .then(datos => {
+    const titulo = document.querySelector('.hero h1');
+    const descripcion = document.querySelector('.hero p');
+
+    if (titulo && datos.titulo) {
+      titulo.textContent = datos.titulo;
+    }
+
+    if (descripcion && datos.descripcion) {
+      descripcion.textContent = datos.descripcion;
+    }
+  })
+  .catch(error => console.error('Error al cargar el contenido:', error));
+</script>
+</body></html>
