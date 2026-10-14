@@ -1,0 +1,30 @@
+
+backend:
+  name: github
+  repo: maseyt2025-coder/mas-sas-web
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: es
+
+collections:
+  - name: "paginas"
+    label: "Páginas"
+    files:
+      - name: "inicio"
+        label: "Página de inicio"
+        file: "contenido/inicio.json"
+        format: "json"
+        fields:
+          - label: "Título principal"
+            name: "titulo"
+            widget: "string"
+          - label: "Descripción"
+            name: "descripcion"
+            widget: "text"
+          - label: "Imagen principal"
+            name: "imagen"
+            widget: "image"
+            required: false
