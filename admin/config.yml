@@ -28,3 +28,24 @@ collections:
             name: "imagen"
             widget: "image"
             required: false
+
+
+  - name: "servicios"
+    label: "Nuestros servicios"
+    files:
+      - name: "servicios"
+        label: "Editar servicios"
+        file: "contenido/servicios.json"
+        format: "json"
+        fields:
+          - label: "Lista de servicios"
+            name: "servicios"
+            widget: "list"
+            summary: "{{fields.nombre}}"
+            fields:
+              - label: "Nombre del servicio"
+                name: "nombre"
+                widget: "string"
+              - label: "Descripción"
+                name: "descripcion"
+                widget: "text"
