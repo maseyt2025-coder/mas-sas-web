@@ -1,0 +1,36 @@
+{
+  "servicios": [
+    {
+      "nombre": "ENERGÍAS RENOVABLES",
+      "descripcion": "Diseño, instalación y mantenimiento de soluciones de energía solar fotovoltaica y sistemas de energías renovables para hogares, empresas e industrias."
+    },
+    {
+      "nombre": "RADIOENLACES",
+      "descripcion": "Ofrecemos soluciones integrales de conectividad inalámbrica mediante el diseño, instalación, configuración, optimización y mantenimiento de radioenlaces punto a punto y punto a multipunto. Interconectamos sedes empresariales, instituciones y redes de proveedores de internet (ISP), garantizando enlaces estables, seguros y de alto rendimiento. Brindamos soporte técnico especializado y soluciones de conectividad a nivel local, regional y nacional."
+    },
+    {
+      "nombre": "REDES EMPRESARIALES",
+      "descripcion": "Diseñamos, implementamos y mantenemos infraestructuras de redes de datos para empresas e instituciones. Ofrecemos soluciones de cableado estructurado, fibra óptica, redes LAN y Wi-Fi, configuración de equipos de comunicación y optimización de redes, garantizando conectividad segura, estable y eficiente."
+    },
+    {
+      "nombre": "CONECTIVIDAD SATELITAL",
+      "descripcion": "Ofrecemos soluciones de conectividad satelital para empresas, instituciones y zonas rurales o de difícil acceso. Realizamos instalación, configuración, optimización y mantenimiento de sistemas de internet satelital, incluyendo tecnología Starlink. Integramos estas soluciones con redes empresariales y sistemas de distribución Wi-Fi para proporcionar conectividad confiable y de alto rendimiento en cualquier región del país con cobertura disponible."
+    },
+    {
+      "nombre": "SEGURIDAD ELECTRÓNICA Y CCTV",
+      "descripcion": "Diseñamos, instalamos, configuramos y mantenemos sistemas integrales de seguridad electrónica para empresas, instituciones, conjuntos residenciales y establecimientos comerciales. Ofrecemos soluciones de videovigilancia CCTV e IP, cámaras de seguridad, sistemas de grabación DVR y NVR, alarmas y control de acceso. Brindamos mantenimiento preventivo y correctivo, diagnóstico de fallas y soporte técnico especializado para garantizar la protección y continuidad de los sistemas de seguridad."
+    },
+    {
+      "nombre": "INSTALACIONES ELÉCTRICAS",
+      "descripcion": "Ofrecemos soluciones integrales en instalaciones eléctricas para los sectores residencial, comercial e industrial. Realizamos diseño, montaje, adecuación y mantenimiento preventivo y correctivo de redes eléctricas, tableros de distribución, sistemas de iluminación, puesta a tierra y respaldo energético. Diseñamos e implementamos sistemas de protección eléctrica mediante disyuntores y dispositivos de protección contra sobretensiones (DPS), para proteger equipos e instalaciones frente a sobrecargas, cortocircuitos y sobretensiones transitorias. Desarrollamos nuestros proyectos conforme a la normativa RETIE y demás disposiciones técnicas aplicables, priorizando la seguridad, eficiencia y continuidad del servicio."
+    },
+    {
+      "nombre": "REPARACIÓN ELECTRÓNICA ESPECIALIZADA",
+      "descripcion": "Ofrecemos diagnóstico, reparación y mantenimiento especializado de equipos electrónicos utilizados en telecomunicaciones, redes de datos y sistemas de energía. Realizamos reparación de tarjetas electrónicas, fuentes de alimentación, inversores, radios de comunicación y equipos de red de diferentes fabricantes, incluyendo Mimosa y MikroTik. Aplicamos técnicas de diagnóstico electrónico a nivel de componentes para identificar y corregir fallas, buscando recuperar la funcionalidad de los equipos, prolongar su vida útil y reducir los costos de reemplazo."
+    },
+    {
+      "nombre": "SOPORTE TÉCNICO ESPECIALIZADO Y EMERGENCIAS 24/7.",
+      "descripcion": "Brindamos soporte técnico especializado, diagnóstico de fallas y mantenimiento preventivo y correctivo de sistemas eléctricos, redes de datos, equipos de telecomunicaciones e infraestructura tecnológica. Contamos con atención de emergencias 24/7 para responder ante fallas críticas, interrupciones del servicio y situaciones que comprometan la continuidad operativa de empresas e instituciones. Ofrecemos soluciones oportunas y acompañamiento técnico para restablecer el funcionamiento de los sistemas y minimizar los tiempos de inactividad."
+    }
+  ]
+}
