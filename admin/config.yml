@@ -80,7 +80,11 @@ collections:
           - label: "NIT"
             name: "nit"
             widget: "string"
-
+            
+          - label: "Sitio Web"
+            name: "web"
+            widget: "string" 
+            
           - label: "Texto del pie de página"
             name: "pie_pagina"
             widget: "text"
