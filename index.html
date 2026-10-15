@@ -8,4 +8,32 @@
 <a class="service" href="servicio.html?id=7"><span class="num">08</span><h3>SOPORTE TÉCNICO ESPECIALIZADO Y EMERGENCIAS 24/7</h3><p>Brindamos soporte técnico especializado, diagnóstico de fallas y mantenimiento preventivo y correctivo de sistemas eléctricos, redes de datos, equipos de teleco…</p><span class="more">Conocer servicio →</span></a></div></section><section id="nosotros" class="section muted"><div class="wrap"><span class="eyebrow">Nuestra empresa</span><h2>MAS S.A.S.</h2><p>Soluciones integrales de energía, conectividad, infraestructura tecnológica y mantenimiento. Atención a proyectos locales, regionales y nacionales según disponibilidad.</p></div></section><section id="proyectos" class="wrap section"><span class="eyebrow">Experiencia</span><h2>Galería de proyectos</h2><div class="gallery"><img loading="lazy" src="assets/uploads/b1fb6195-31af-419f-89ba-320cda5b6b90.jfif" alt="Proyecto y trabajo de MAS S.A.S.">
 <img loading="lazy" src="assets/uploads/7d783d48-de18-4930-9e18-d08ca59373d9.png" alt="Proyecto y trabajo de MAS S.A.S.">
 <img loading="lazy" src="assets/uploads/20241220_173027.jpg" alt="Proyecto y trabajo de MAS S.A.S.">
-<img loading="lazy" src="assets/uploads/20250723_154405.jpg" alt="Proyecto y trabajo de MAS S.A.S."></div></section></main><section id="contacto" class="contact"><div class="wrap"><span class="eyebrow">Hablemos de tu proyecto</span><h2>Contacto empresarial</h2><p><b>MAS S.A.S. — NIT 901922009-0</b></p><p>Diagonal 26 Calle 27 No. 105D, Urbanización La Floresta, Turbaco, Bolívar, Colombia.</p><p><a href="mailto:comercial@maseyt.com">comercial@maseyt.com</a><br>Sitio web: <a href="https://maseyt.com">maseyt.com</a></p><div class="phones"><a href="tel:+573174401779">317 440 1779</a><a href="tel:+573122314742">312 231 4742</a><a href="tel:+573233401670">323 340 1670</a><a href="tel:+576056275519">605 627 5519</a></div><a class="btn" href="https://wa.me/573174401779" target="_blank" rel="noopener">Escríbenos por WhatsApp</a></div></section><footer>© 2026 MAS S.A.S. · Energía y Telecomunicaciones · NIT 901922009-0</footer><a class="floating" href="https://wa.me/573174401779" aria-label="WhatsApp">WhatsApp ↗</a></body></html>
+<img loading="lazy" src="assets/uploads/20250723_154405.jpg" alt="Proyecto y trabajo de MAS S.A.S."></div></section></main><section id="contacto" class="contact"><div class="wrap"><span class="eyebrow">Hablemos de tu proyecto</span><h2>Contacto empresarial</h2><p><b>MAS S.A.S. — NIT 901922009-0</b></p><p>Diagonal 26 Calle 27 No. 105D, Urbanización La Floresta, Turbaco, Bolívar, Colombia.</p><p><a href="mailto:comercial@maseyt.com">comercial@maseyt.com</a><br>Sitio web: <a href="https://maseyt.com">maseyt.com</a></p><div class="phones"><a href="tel:+573174401779">317 440 1779</a><a href="tel:+573122314742">312 231 4742</a><a href="tel:+573233401670">323 340 1670</a><a href="tel:+576056275519">605 627 5519</a></div><a class="btn" href="https://wa.me/573174401779" target="_blank" rel="noopener">Escríbenos por WhatsApp</a></div></section><footer>© 2026 MAS S.A.S. · Energía y Telecomunicaciones · NIT 901922009-0</footer><a class="floating" href="https://wa.me/573174401779" aria-label="WhatsApp">WhatsApp ↗</a>
+<script>
+fetch('/contenido/inicio.json')
+  .then(respuesta => {
+    if (!respuesta.ok) throw new Error('No se pudo cargar inicio.json');
+    return respuesta.json();
+  })
+  .then(datos => {
+    const titulo = document.querySelector('.hero h1');
+    const descripcion = document.querySelector('.hero p');
+    const hero = document.querySelector('.hero');
+
+    if (titulo && datos.titulo) {
+      titulo.textContent = datos.titulo;
+    }
+
+    if (descripcion && datos['descripción']) {
+      descripcion.textContent = datos['descripción'];
+    }
+
+    if (hero && datos.imagen) {
+      hero.style.backgroundImage =
+        "linear-gradient(110deg, #071b38ed, #1269aee3), url(" +
+        encodeURI(datos.imagen) + ")";
+    }
+  })
+  .catch(error => console.error('Error al cargar contenido:', error));
+</script>
+</body></html>
