@@ -1,1 +1,377 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="MAS S.A.S. Energía, telecomunicaciones, radioenlaces, redes empresariales y soporte técnico en Colombia."><title>MAS S.A.S. | Energía y Telecomunicaciones</title><link rel="stylesheet" href="estilos.css"></head><body><header><a class="brand" href="index.html"><img src="assets/logo-mas.jpg" alt="Logo MAS S.A.S."><strong>MAS S.A.S.</strong></a><nav><a href="index.html">Inicio</a><a href="index.html#servicios">Servicios</a><a href="index.html#proyectos">Proyectos</a><a href="index.html#nosotros">Nosotros</a><a href="index.html#contacto">Contacto</a></nav></header><main class="wrap section"><a href="index.html#servicios">← Volver a servicios</a><article class="detail"><span class="eyebrow">Servicio especializado</span><h1 id="title"></h1><p id="desc"></p><a class="btn" id="quote" href="https://wa.me/573174401779">Cotizar este servicio por WhatsApp</a></article></main><section id="contacto" class="contact"><div class="wrap"><span class="eyebrow">Hablemos de tu proyecto</span><h2>Contacto empresarial</h2><p><b>MAS S.A.S. — NIT 901922009-0</b></p><p>Diagonal 26 Calle 27 No. 105D, Urbanización La Floresta, Turbaco, Bolívar, Colombia.</p><p><a href="mailto:comercial@maseyt.com">comercial@maseyt.com</a> · <a href="https://maseyt.com">maseyt.com</a></p><div class="phones"><a href="tel:+573174401779">317 440 1779</a><a href="tel:+573122314742">312 231 4742</a><a href="tel:+573233401670">323 340 1670</a><a href="tel:+576056275519">605 627 5519</a></div><a class="btn" href="https://wa.me/573174401779" target="_blank" rel="noopener">Escríbenos por WhatsApp</a></div></section><footer>© 2026 MAS S.A.S. · Energía y Telecomunicaciones · NIT 901922009-0</footer><a class="floating" href="https://wa.me/573174401779" aria-label="WhatsApp">WhatsApp ↗</a></body></html><script>const services=[{"nombre": "ENERGÍAS RENOVABLES", "descripcion": "Diseño, instalación y mantenimiento de soluciones de energía solar fotovoltaica y sistemas de energías renovables para hogares, empresas e industrias."}, {"nombre": "RADIOENLACES", "descripcion": "Ofrecemos soluciones integrales de conectividad inalámbrica mediante el diseño, instalación, configuración, optimización y mantenimiento de radioenlaces punto a punto y punto a multipunto. Interconectamos sedes empresariales, instituciones y redes de proveedores de internet (ISP), garantizando enlaces estables, seguros y de alto rendimiento. Brindamos soporte técnico especializado y soluciones de conectividad a nivel local, regional y nacional."}, {"nombre": "REDES EMPRESARIALES", "descripcion": "Diseñamos, implementamos y mantenemos infraestructuras de redes de datos para empresas e instituciones. Ofrecemos soluciones de cableado estructurado, fibra óptica, redes LAN y Wi-Fi, configuración de equipos de comunicación y optimización de redes, garantizando conectividad segura, estable y eficiente."}, {"nombre": "CONECTIVIDAD SATELITAL", "descripcion": "Ofrecemos soluciones de conectividad satelital para empresas, instituciones y zonas rurales o de difícil acceso. Realizamos instalación, configuración, optimización y mantenimiento de sistemas de internet satelital, incluyendo tecnología Starlink. Integramos estas soluciones con redes empresariales y sistemas de distribución Wi-Fi para proporcionar conectividad confiable y de alto rendimiento en cualquier región del país con cobertura disponible."}, {"nombre": "SEGURIDAD ELECTRÓNICA Y CCTV", "descripcion": "Diseñamos, instalamos, configuramos y mantenemos sistemas integrales de seguridad electrónica para empresas, instituciones, conjuntos residenciales y establecimientos comerciales. Ofrecemos soluciones de videovigilancia CCTV e IP, cámaras de seguridad, sistemas de grabación DVR y NVR, alarmas y control de acceso. Brindamos mantenimiento preventivo y correctivo, diagnóstico de fallas y soporte técnico especializado para garantizar la protección y continuidad de los sistemas de seguridad."}, {"nombre": "INSTALACIONES ELÉCTRICAS", "descripcion": "Ofrecemos soluciones integrales en instalaciones eléctricas para los sectores residencial, comercial e industrial. Realizamos diseño, montaje, adecuación y mantenimiento preventivo y correctivo de redes eléctricas, tableros de distribución, sistemas de iluminación, puesta a tierra y respaldo energético. Diseñamos e implementamos sistemas de protección eléctrica mediante disyuntores y dispositivos de protección contra sobretensiones (DPS), para proteger equipos e instalaciones frente a sobrecargas, cortocircuitos y sobretensiones transitorias. Desarrollamos nuestros proyectos conforme a la normativa RETIE y demás disposiciones técnicas aplicables, priorizando la seguridad, eficiencia y continuidad del servicio."}, {"nombre": "REPARACIÓN ELECTRÓNICA ESPECIALIZADA", "descripcion": "Ofrecemos diagnóstico, reparación y mantenimiento especializado de equipos electrónicos utilizados en telecomunicaciones, redes de datos y sistemas de energía. Realizamos reparación de tarjetas electrónicas, fuentes de alimentación, inversores, radios de comunicación y equipos de red de diferentes fabricantes, incluyendo Mimosa y MikroTik. Aplicamos técnicas de diagnóstico electrónico a nivel de componentes para identificar y corregir fallas, buscando recuperar la funcionalidad de los equipos, prolongar su vida útil y reducir los costos de reemplazo."}, {"nombre": "SOPORTE TÉCNICO ESPECIALIZADO Y EMERGENCIAS 24/7.", "descripcion": "Brindamos soporte técnico especializado, diagnóstico de fallas y mantenimiento preventivo y correctivo de sistemas eléctricos, redes de datos, equipos de telecomunicaciones e infraestructura tecnológica. Contamos con atención de emergencias 24/7 para responder ante fallas críticas, interrupciones del servicio y situaciones que comprometan la continuidad operativa de empresas e instituciones. Ofrecemos soluciones oportunas y acompañamiento técnico para restablecer el funcionamiento de los sistemas y minimizar los tiempos de inactividad."}];const n=Number(new URLSearchParams(location.search).get("id"));const s=services[n];if(s){document.getElementById("title").textContent=s.nombre;document.getElementById("desc").textContent=s.descripcion;document.title=s.nombre+" | MAS S.A.S.";document.getElementById("quote").href="https://wa.me/573174401779?text="+encodeURIComponent("Hola, quiero cotizar el servicio de "+s.nombre);}else{document.getElementById("title").textContent="Servicio no encontrado";}</script>
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MAS S.A.S. Energía, telecomunicaciones y soporte técnico en Colombia.">
+  <title>Servicios | MAS S.A.S.</title>
+  <link rel="stylesheet" href="estilos.css">
+
+  <style>
+    .service-gallery {
+      margin-top: 35px;
+    }
+
+    .service-gallery h2 {
+      margin-bottom: 20px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-item {
+      margin: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      background: #f5f5f5;
+      box-shadow: 0 3px 12px rgba(0,0,0,.10);
+    }
+
+    .gallery-item img {
+      display: block;
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      cursor: zoom-in;
+    }
+
+    .gallery-item figcaption {
+      padding: 12px 15px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    #desc {
+      white-space: pre-line;
+    }
+
+    #gallery {
+      margin-bottom: 25px;
+    }
+
+    .gallery-status {
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a class="brand" href="index.html">
+    <img src="assets/logo-mas.jpg" alt="Logo MAS S.A.S.">
+    <strong>MAS S.A.S.</strong>
+  </a>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="index.html#servicios">Servicios</a>
+    <a href="index.html#proyectos">Proyectos</a>
+    <a href="index.html#nosotros">Nosotros</a>
+    <a href="index.html#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main class="wrap section">
+
+  <a href="index.html#servicios">← Volver a servicios</a>
+
+  <article class="detail">
+    <span class="eyebrow">Servicio especializado</span>
+
+    <h1 id="title">Cargando servicio...</h1>
+
+    <p id="desc"></p>
+
+    <a
+      class="btn"
+      id="quote"
+      href="https://wa.me/573174401779"
+      target="_blank"
+      rel="noopener"
+    >
+      Cotizar este servicio por WhatsApp
+    </a>
+  </article>
+
+  <section id="gallery" class="service-gallery" hidden>
+    <h2>Galería de nuestros trabajos</h2>
+    <div id="gallery-grid" class="gallery-grid"></div>
+  </section>
+
+</main>
+
+<section id="contacto" class="contact">
+  <div class="wrap">
+
+    <span class="eyebrow">Hablemos de tu proyecto</span>
+
+    <h2>Contacto empresarial</h2>
+
+    <p>
+      <b>MAS S.A.S. — NIT 901922009-0</b>
+    </p>
+
+    <p>
+      Diagonal 26 Calle 27 No. 105D,
+      Urbanización La Floresta,
+      Turbaco, Bolívar, Colombia.
+    </p>
+
+    <p>
+      <a href="mailto:comercial@maseyt.com">
+        comercial@maseyt.com
+      </a>
+      ·
+      <a href="https://maseyt.com">
+        maseyt.com
+      </a>
+    </p>
+
+    <div class="phones">
+      <a href="tel:+573174401779">317 440 1779</a>
+      <a href="tel:+573122314742">312 231 4742</a>
+      <a href="tel:+573233401670">323 340 1670</a>
+      <a href="tel:+576056275519">605 627 5519</a>
+    </div>
+
+    <a
+      class="btn"
+      href="https://wa.me/573174401779"
+      target="_blank"
+      rel="noopener"
+    >
+      Escríbenos por WhatsApp
+    </a>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 MAS S.A.S. · Energía y Telecomunicaciones · NIT 901922009-0
+</footer>
+
+<a
+  class="floating"
+  href="https://wa.me/573174401779"
+  aria-label="WhatsApp"
+  target="_blank"
+  rel="noopener"
+>
+  WhatsApp ↗
+</a>
+
+<script>
+  const serviciosOriginales = [
+    {
+      nombre: "ENERGÍAS RENOVABLES",
+      descripcion: "Diseño, instalación y mantenimiento de soluciones de energía solar fotovoltaica y sistemas de energías renovables para hogares, empresas e industrias."
+    },
+    {
+      nombre: "RADIOENLACES",
+      descripcion: "Ofrecemos soluciones integrales de conectividad inalámbrica mediante el diseño, instalación, configuración, optimización y mantenimiento de radioenlaces punto a punto y punto a multipunto. Interconectamos sedes empresariales, instituciones y redes de proveedores de internet (ISP), garantizando enlaces estables, seguros y de alto rendimiento. Brindamos soporte técnico especializado y soluciones de conectividad a nivel local, regional y nacional."
+    },
+    {
+      nombre: "REDES EMPRESARIALES",
+      descripcion: "Diseñamos, implementamos y mantenemos infraestructuras de redes de datos para empresas e instituciones. Ofrecemos soluciones de cableado estructurado, fibra óptica, redes LAN y Wi-Fi, configuración de equipos de comunicación y optimización de redes, garantizando conectividad segura, estable y eficiente."
+    },
+    {
+      nombre: "CONECTIVIDAD SATELITAL",
+      descripcion: "Ofrecemos soluciones de conectividad satelital para empresas, instituciones y zonas rurales o de difícil acceso. Realizamos instalación, configuración, optimización y mantenimiento de sistemas de internet satelital, incluyendo tecnología Starlink. Integramos estas soluciones con redes empresariales y sistemas de distribución Wi-Fi para proporcionar conectividad confiable y de alto rendimiento en cualquier región del país con cobertura disponible."
+    },
+    {
+      nombre: "SEGURIDAD ELECTRÓNICA Y CCTV",
+      descripcion: "Diseñamos, instalamos, configuramos y mantenemos sistemas integrales de seguridad electrónica para empresas, instituciones, conjuntos residenciales y establecimientos comerciales. Ofrecemos soluciones de videovigilancia CCTV e IP, cámaras de seguridad, sistemas de grabación DVR y NVR, alarmas y control de acceso. Brindamos mantenimiento preventivo y correctivo, diagnóstico de fallas y soporte técnico especializado para garantizar la protección y continuidad de los sistemas de seguridad."
+    },
+    {
+      nombre: "INSTALACIONES ELÉCTRICAS",
+      descripcion: "Ofrecemos soluciones integrales en instalaciones eléctricas para los sectores residencial, comercial e industrial. Realizamos diseño, montaje, adecuación y mantenimiento preventivo y correctivo de redes eléctricas, tableros de distribución, sistemas de iluminación, puesta a tierra y respaldo energético. Diseñamos e implementamos sistemas de protección eléctrica mediante disyuntores y dispositivos de protección contra sobretensiones (DPS), para proteger equipos e instalaciones frente a sobrecargas, cortocircuitos y sobretensiones transitorias. Desarrollamos nuestros proyectos conforme a la normativa RETIE y demás disposiciones técnicas aplicables, priorizando la seguridad, eficiencia y continuidad del servicio."
+    },
+    {
+      nombre: "REPARACIÓN ELECTRÓNICA ESPECIALIZADA",
+      descripcion: "Ofrecemos diagnóstico, reparación y mantenimiento especializado de equipos electrónicos utilizados en telecomunicaciones, redes de datos y sistemas de energía. Realizamos reparación de tarjetas electrónicas, fuentes de alimentación, inversores, radios de comunicación y equipos de red de diferentes fabricantes, incluyendo Mimosa y MikroTik. Aplicamos técnicas de diagnóstico electrónico a nivel de componentes para identificar y corregir fallas, buscando recuperar la funcionalidad de los equipos, prolongar su vida útil y reducir los costos de reemplazo."
+    },
+    {
+      nombre: "SOPORTE TÉCNICO ESPECIALIZADO Y EMERGENCIAS 24/7.",
+      descripcion: "Brindamos soporte técnico especializado, diagnóstico de fallas y mantenimiento preventivo y correctivo de sistemas eléctricos, redes de datos, equipos de telecomunicaciones e infraestructura tecnológica. Contamos con atención de emergencias 24/7 para responder ante fallas críticas, interrupciones del servicio y situaciones que comprometan la continuidad operativa de empresas e instituciones. Ofrecemos soluciones oportunas y acompañamiento técnico para restablecer el funcionamiento de los sistemas y minimizar los tiempos de inactividad."
+    }
+  ];
+
+  const parametros = new URLSearchParams(window.location.search);
+  const id = Number(parametros.get("id"));
+
+  const titulo = document.getElementById("title");
+  const descripcion = document.getElementById("desc");
+  const cotizar = document.getElementById("quote");
+  const galeria = document.getElementById("gallery");
+  const contenedorGaleria = document.getElementById("gallery-grid");
+
+  function normalizarTexto(valor) {
+    return String(valor || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "");
+  }
+
+  function obtenerLista(datos) {
+    if (Array.isArray(datos)) return datos;
+
+    if (!datos || typeof datos !== "object") return [];
+
+    const posiblesClaves = [
+      "servicios",
+      "lista_servicios",
+      "lista",
+      "items"
+    ];
+
+    for (const clave of posiblesClaves) {
+      if (Array.isArray(datos[clave])) {
+        return datos[clave];
+      }
+    }
+
+    return [];
+  }
+
+  function rutaImagen(valor) {
+    if (!valor || typeof valor !== "string") return "";
+
+    const ruta = valor.trim();
+
+    if (/^(https?:)?\/\//i.test(ruta)) {
+      return ruta;
+    }
+
+    if (ruta.startsWith("data:")) {
+      return "";
+    }
+
+    return "/" + ruta.replace(/^\/+/, "");
+  }
+
+  function mostrarServicio(servicio) {
+    const nombre = servicio.nombre || servicio.titulo || "Servicio";
+    const texto = servicio.descripcion || servicio.descripcion_larga || "";
+
+    titulo.textContent = nombre;
+    descripcion.textContent = texto;
+
+    document.title = nombre + " | MAS S.A.S.";
+
+    cotizar.href =
+      "https://wa.me/573174401779?text=" +
+      encodeURIComponent(
+        "Hola, quiero cotizar el servicio de " + nombre
+      );
+
+    contenedorGaleria.replaceChildren();
+
+    const fotos = Array.isArray(servicio.galeria)
+      ? servicio.galeria
+      : [];
+
+    for (const foto of fotos) {
+      const imagenOriginal =
+        typeof foto === "string"
+          ? foto
+          : foto.imagen || foto.foto || "";
+
+      const imagenURL = rutaImagen(imagenOriginal);
+
+      if (!imagenURL) continue;
+
+      const figura = document.createElement("figure");
+      figura.className = "gallery-item";
+
+      const imagen = document.createElement("img");
+      imagen.src = imagenURL;
+      imagen.loading = "lazy";
+      imagen.alt =
+        foto.descripcion_foto ||
+        "Trabajo realizado por MAS S.A.S.";
+
+      imagen.addEventListener("click", () => {
+        window.open(imagenURL, "_blank", "noopener");
+      });
+
+      figura.appendChild(imagen);
+
+      const pie = typeof foto === "object"
+        ? foto.descripcion_foto || ""
+        : "";
+
+      if (pie) {
+        const textoPie = document.createElement("figcaption");
+        textoPie.textContent = pie;
+        figura.appendChild(textoPie);
+      }
+
+      contenedorGaleria.appendChild(figura);
+    }
+
+    galeria.hidden = contenedorGaleria.children.length === 0;
+  }
+
+  async function cargarServicio() {
+    const original = serviciosOriginales[id];
+
+    if (!Number.isInteger(id) || id < 0 || !original) {
+      titulo.textContent = "Servicio no encontrado";
+      descripcion.textContent = "";
+      cotizar.hidden = true;
+      return;
+    }
+
+    mostrarServicio(original);
+
+    try {
+      const respuesta = await fetch(
+        "contenido/servicios.json",
+        { cache: "no-store" }
+      );
+
+      if (!respuesta.ok) {
+        throw new Error("No se pudo cargar servicios.json");
+      }
+
+      const datos = await respuesta.json();
+      const servicios = obtenerLista(datos);
+
+      if (!servicios.length) {
+        console.warn("No se encontró una lista de servicios en el JSON.");
+        return;
+      }
+
+      const servicioCMS = servicios.find((servicio) =>
+        normalizarTexto(servicio.nombre || servicio.titulo) ===
+        normalizarTexto(original.nombre)
+      );
+
+      if (servicioCMS) {
+        mostrarServicio({
+          ...original,
+          ...servicioCMS
+        });
+      } else {
+        console.warn(
+          "No se encontró el servicio correspondiente en servicios.json:",
+          original.nombre
+        );
+      }
+
+    } catch (error) {
+      console.error("Error al cargar el servicio:", error);
+    }
+  }
+
+  cargarServicio();
+</script>
+
+</body>
+</html>
