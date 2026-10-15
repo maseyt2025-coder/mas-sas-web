@@ -64,6 +64,10 @@ collections:
           - label: "Teléfono"
             name: "telefono"
             widget: "string"
+            
+          - label: "WhatsApp"
+            name: "whatsapp"
+            widget: "string"
 
           - label: "Correo electrónico"
             name: "correo"
