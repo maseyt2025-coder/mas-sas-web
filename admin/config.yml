@@ -49,14 +49,14 @@ collections:
               - label: "Descripción"
                 name: "descripcion"
                 widget: "text"
-   - name: "empresa"
-       label: "Información Empresarial"
-       files: 
-         - name: "datos_empresa"
-           label: "datos de la empresa"
-           file: "contenido/empresa.json"
-           format: "json"
-           fields:
+  - name: "empresa"
+    label: "Información Empresarial"
+    files: 
+      - name: "datos_empresa"
+        label: "datos de la empresa"
+        file: "contenido/empresa.json"
+        format: "json"
+        fields:
           - label: "Nombre de la empresa"
             name: "nombre"
             widget: "string"
