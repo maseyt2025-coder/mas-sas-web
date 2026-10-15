@@ -36,4 +36,63 @@ fetch('/contenido/inicio.json')
   })
   .catch(error => console.error('Error al cargar contenido:', error));
 </script>
+<script>
+fetch('/contenido/empresa.json')
+  .then(respuesta => {
+    if (!respuesta.ok) throw new Error('No se pudo cargar empresa.json');
+    return respuesta.json();
+  })
+  .then(datos => {
+    // Actualizar el pie de página
+    const pie = document.querySelector('footer');
+
+    if (pie && datos.pie_pagina) {
+      pie.textContent = datos.pie_pagina;
+    }
+
+    // Actualizar el botón flotante de WhatsApp
+    const botonWhatsApp = document.querySelector('a.floating');
+
+    if (botonWhatsApp && datos.whatsapp) {
+      const numero = datos.whatsapp.replace(/\D/g, '');
+      if (numero.length === 10) {
+        botonWhatsApp.href = 'https://wa.me/57' + numero;
+      }
+    }
+
+    // Actualizar los datos de contacto
+    const contacto = document.querySelector('#contacto');
+
+    if (contacto) {
+      if (datos.correo) {
+        contacto.querySelectorAll('a[href^="mailto:"]').forEach(enlace => {
+          enlace.href = 'mailto:' + datos.correo;
+          enlace.textContent = datos.correo;
+        });
+      }
+
+      if (datos.telefono) {
+        const numeros = datos.telefono.split('|').map(n => n.trim());
+        const enlaces = contacto.querySelectorAll('.phones a[href^="tel:"]');
+
+        enlaces.forEach((enlace, indice) => {
+          if (numeros[indice]) {
+            enlace.textContent = numeros[indice];
+            enlace.href = 'tel:+57' + numeros[indice].replace(/\D/g, '');
+          }
+        });
+      }
+
+      if (datos.whatsapp) {
+        const boton = contacto.querySelector('a[href*="wa.me"]');
+        const numero = datos.whatsapp.replace(/\D/g, '');
+
+        if (boton && numero.length === 10) {
+          boton.href = 'https://wa.me/57' + numero;
+        }
+      }
+    }
+  })
+  .catch(error => console.error('Error al cargar información empresarial:', error));
+</script>
 </body></html>
