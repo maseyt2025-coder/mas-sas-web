@@ -49,6 +49,17 @@ collections:
               - label: "Descripción"
                 name: "descripcion"
                 widget: "text"
+              - label: "Galería de imágenes"
+                name: "galeria"
+                widget: "list"
+                fields:
+              - label: "Fotografía"
+                name: "imagen"
+                widget: "image"
+              - label: "Descripción de la fotografía"
+                name: "descripcion"
+                widget: "string"
+                required: false
   - name: "empresa"
     label: "Información Empresarial"
     files: 
