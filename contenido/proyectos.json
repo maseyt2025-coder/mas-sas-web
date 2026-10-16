@@ -1,1 +1,20 @@
-{"proyectos":[]}
+{
+  "proyectos": [
+    {
+      "imagen": "/assets/uploads/b1fb6195-31af-419f-89ba-320cda5b6b90.jfif",
+      "descripcion": "Instalación de paneles solares"
+    },
+    {
+      "imagen": "/assets/uploads/7d783d48-de18-4930-9e18-d08ca59373d9.png",
+      "descripcion": "Instalación de antena de telecomunicaciones"
+    },
+    {
+      "imagen": "/assets/uploads/20241220_173027.jpg",
+      "descripcion": "Proyecto de infraestructura de telecomunicaciones"
+    },
+    {
+      "imagen": "/assets/uploads/20250723_154405.jpg",
+      "descripcion": "Instalación de radioenlace"
+    }
+  ]
+}
