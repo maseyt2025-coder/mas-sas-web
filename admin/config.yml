@@ -118,4 +118,23 @@ collections:
           - label: "Texto del pie de página"
             name: "pie_pagina"
             widget: "text"
+  - name: "clientes"
+    label: "Nuestros clientes"
+    files:
+      - name: "clientes"
+        label: "Editar logotipos de clientes"
+        file: "contenido/clientes.json"
+        format: "json"
+        fields:
+          - label: "Lista de clientes"
+            name: "clientes"
+            widget: "list"
+            summary: "{{fields.nombre}}"
+            fields:
+              - label: "Nombre del cliente"
+                name: "nombre"
+                widget: "string"
+              - label: "Logotipo"
+                name: "logo"
+                widget: "image"
          
