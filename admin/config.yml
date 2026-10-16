@@ -137,4 +137,23 @@ collections:
               - label: "Logotipo"
                 name: "logo"
                 widget: "image"
-         
+  - name: "galeria"
+    label: "Galería de proyectos"
+    files:
+      - name: "proyectos"
+        label: "Administrar fotografías"
+        file: "contenido/proyectos.json"
+        format: "json"
+        fields:
+          - label: "Fotografías de proyectos"
+            name: "proyectos"
+            widget: "list"
+            summary: "{{fields.descripcion}}"
+            fields:
+              - label: "Fotografía"
+                name: "imagen"
+                widget: "image"
+              - label: "Descripción"
+                name: "descripcion"
+                widget: "string"
+                required: false
