@@ -3,23 +3,23 @@
   "clientes": [
     {
       "nombre": "Savatel S.A.S.",
-      "logo": "/assets/uploads/savatel.png"
+      "logo": "/assets/uploads/savatel.jpg"
     },
     {
       "nombre": "Netbeam",
-      "logo": "/assets/uploads/netbeam.png"
+      "logo": "/assets/uploads/netbeam.jpg"
     },
     {
       "nombre": "Casa Productora",
-      "logo": "/assets/uploads/casa-productora.png"
+      "logo": "/assets/uploads/casa-productora.jpg"
     },
     {
       "nombre": "CREC Comunicaciones",
-      "logo": "/assets/uploads/crec-comunicaciones.png"
+      "logo": "/assets/uploads/crec-comunicaciones.jpg"
     },
     {
       "nombre": "Sointech",
-      "logo": "/assets/uploads/sointech.png"
+      "logo": "/assets/uploads/sointech.jpg"
     }
   ]
 }
