@@ -60,6 +60,25 @@ collections:
                     name: "descripcion_foto"
                     widget: "string"
                     required: false
+  - name: "nosotros"
+    label: "Quiénes somos, Misión y Visión"
+    files:
+      - name: "nosotros"
+        label: "Editar información institucional"
+        file: "contenido/nosotros.json"
+        format: "json"
+        fields:
+          - label: "Quiénes somos"
+            name: "quienes_somos"
+            widget: "text"
+
+          - label: "Misión"
+            name: "mision"
+            widget: "text"
+
+          - label: "Visión"
+            name: "vision"
+            widget: "text"
   - name: "empresa"
     label: "Información Empresarial"
     files: 
